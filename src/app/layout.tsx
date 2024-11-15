@@ -3,6 +3,7 @@ import "./globals.css";
 import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
 import { type Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
 
 import { TRPCReactProvider } from "~/trpc/react";
 import { cn } from "~/components/utils";
@@ -19,6 +20,7 @@ export default function RootLayout({
     <html lang="en" className={cn(GeistSans.variable, GeistMono.variable)}>
       <body className="min-h-screen bg-slate-950 font-sans text-white antialiased">
         <TRPCReactProvider>{children}</TRPCReactProvider>
+        <Analytics />
       </body>
     </html>
   );
