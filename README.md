@@ -1,5 +1,5 @@
 > [!NOTE]
-> **Looking for my next challenge**: if you're building something ambitious and need an engineer who thinks like a product owner, [let's talk](mailto:simone@simonecervini.dev)!
+> **Looking for my next challenge**: if you're building something ambitious and need an engineer who thinks like a founder, [let's talk](mailto:simone@simonecervini.dev)!
 
 I'm a full-stack engineer from Italy, building stuff for the web.
 
